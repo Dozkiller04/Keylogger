@@ -1,39 +1,67 @@
-🔐 Python Keylogger (For Educational Purposes Only)
+# 🧠 Keylogger – Educational Project
 
-This project is a basic Python-based **keylogger** built using the `pynput` library.  
-It is developed **strictly for ethical hacking awareness, cybersecurity education**, and learning how keyloggers work.
+> ⚠️ **For Educational and Ethical Testing Purposes Only**
 
-> ⚠️ DISCLAIMER:
-> This tool is developed for **educational purposes only**. Do not use it on any system without clear **permission**.  
-> Misuse of this tool is illegal and unethical. The developer is not responsible for any misuse or damage caused.
+A Python-based keylogger tool that captures keystrokes and logs them into a text file.  
+This project is intended to demonstrate how keystroke logging works for **ethical awareness, training, and testing** in cybersecurity environments.
 
 ---
+## ✨ Features
 
-🎯 Objective
-
-- Understand how keyloggers operate.
-- Raise awareness about endpoint security and privacy.
-- Help students and ethical hackers build defensive strategies.
-
+- ⌨️ Logs all standard key presses (letters, numbers, symbols)
+- 📁 Stores logs in a hidden folder in user's home directory
+- 🛑 Stops logging when ESC key is pressed
+- 🧪 Demonstrates real-world keylogging behavior for learning purposes
+- 💻 Lightweight and runs in the background
 ---
+## 🛠️ Technologies Used
 
-🛠️ Features
+- 🐍 Python 3.x
+- 🎯 [pynput](https://pypi.org/project/pynput/) – For listening to keyboard events
+- 🗂️ logging module – For saving key logs with timestamps
 
-- Logs all keystrokes (including special keys).
-- Saves output to a local text file with timestamp.
-- Stops when the `Esc` key is pressed.
-- Lightweight and easy to understand Python code.
-
----
-
-🧰 Requirements
-
-- Python 3.x
-- `pynput` library
-
-📦 Installation
-
-Install the required library:
+## 📦 Installation & Setup
 
 ```bash
+git clone https://github.com/Dozkiller04/Keylogger.git
+cd Keylogger
 pip install pynput
+python keylogger.py
+
+💡 The logs will be stored in:
+C:/Users/<YourUsername>/keylogs/keylog.txt
+🔑 To stop the logger: Press the ESC key.
+
+
+---
+
+#### 📌 STEP 5: **📸 Screenshots**
+```markdown
+## 📸 Screenshots
+
+### 🔹 Script Running in Terminal
+![Script Running](./screenshots/01_script_running.png)
+
+### 🔹 Generated Keylog Output
+![Log Output](./screenshots/02_keylog_output.png)
+
+## 🎬 Project Demo (Voice-over)
+
+📽️ Watch the complete working demo with explanation:  
+👉 [Click to Watch Demo on Google Drive](https://drive.google.com/file/d/1AnbJfn0IfItNJf6TrMCYphfrvTJ5-act/view?usp=drive_link)
+
+## 🚀 Future Enhancements
+
+- 🔒 Add log encryption
+- ☁️ Upload logs to remote server for testing
+- 🛑 Add keystroke filtering (ignore function keys, etc.)
+
+## 👨‍💻 Author
+
+**Soham Pramod Tayade**  
+🎓 BSc Cyber & Digital Science  
+🏢 RISE Internship – Cybersecurity & Ethical Hacking  
+📍 Pune, Maharashtra  
+🔗 GitHub: [Dozkiller04](https://github.com/Dozkiller04)
+
+
