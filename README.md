@@ -20,13 +20,6 @@ This project is intended to demonstrate how keystroke logging works for **ethica
 - 🎯 [pynput](https://pypi.org/project/pynput/) – For listening to keyboard events
 - 🗂️ logging module – For saving key logs with timestamps
 
-## 📦 Installation & Setup
-
-```bash
-git clone https://github.com/Dozkiller04/Keylogger.git
-cd Keylogger
-pip install pynput
-python keylogger.py
 
 💡 The logs will be stored in:
 C:/Users/<YourUsername>/keylogs/keylog.txt
@@ -35,8 +28,6 @@ C:/Users/<YourUsername>/keylogs/keylog.txt
 
 ---
 
-#### 📌 STEP 5: **📸 Screenshots**
-```markdown
 ## 📸 Screenshots
 
 ### 🔹 Script Running in Terminal
