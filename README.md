@@ -31,10 +31,10 @@ C:/Users/<YourUsername>/keylogs/keylog.txt
 ## 📸 Screenshots
 
 ### 🔹 Script Running in Terminal
-![Script Running](./screenshots/01_script_running.png)
+![Script Running](screenshots/01_script_running.png.png)
 
 ### 🔹 Generated Keylog Output
-![Log Output](./screenshots/02_keylog_output.png)
+![Log Output](screenshots/02_keylog_output.png.png)
 
 ## 🎬 Project Demo (Voice-over)
 
